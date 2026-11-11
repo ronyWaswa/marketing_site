@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | RonyWaswa Marketing</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700;800&family=Public+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="wrap">
+<a class="logo" href="index.html">Rony<span>Waswa</span></a>
+<nav aria-label="Main">
+<a href="index.html">Home</a>
+<a href="services.html">Services</a>
+<a href="portfolio.html">Portfolio</a>
+<a href="about.html">About</a>
+<a href="contact.html" aria-current="page">Contact</a>
+</nav></div></header>
+<main>
+<div class="page-title"><div class="wrap"><h1>Contact us</h1><p>Tell us about your business. We reply within one working day.</p></div></div>
+<section><div class="wrap">
+<form action="#" onsubmit="event.preventDefault();document.getElementById('ok').hidden=false;this.reset();">
+<label>Your name<input type="text" name="name" required></label>
+<label>Email<input type="email" name="email" required></label>
+<label>Service you need
+<select name="service">
+<option>Social media marketing</option><option>Search engine optimisation</option><option>Paid advertising</option><option>Email marketing</option><option>Content and branding</option><option>Not sure yet</option>
+</select></label>
+<label>Message<textarea name="message" rows="5" required></textarea></label>
+<button class="btn" type="submit">Send message</button>
+<p id="ok" hidden role="status"><strong>Message sent.</strong> We will reply within one working day.</p>
+</form>
+<p style="margin-top:2rem">Prefer to browse first? Visit <a href="services.html">Services</a> or <a href="portfolio.html">Portfolio</a>.</p>
+</div></section>
+</main>
+<footer><div class="wrap">
+<p>&copy; 2026 RonyWaswa Marketing. All rights reserved.</p>
+<p><a href="index.html">Home</a><a href="services.html">Services</a><a href="portfolio.html">Portfolio</a><a href="about.html">About</a><a href="contact.html">Contact</a></p>
+</div></footer>
+</body>
+</html>
